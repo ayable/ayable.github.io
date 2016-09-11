@@ -19,23 +19,11 @@ header {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
-/*
-header::before{*/
-	/* 透過した黒を重ねる */
-/*	background-color: rgba(0,0,0,0.5);*/
-	/* どの範囲に重ねるかを指定 */
-/*	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	content: ' ';
-}
-*/
 
 #logo {
+  margin-left: 20px;
   padding: 20px 0;
   text-align: left;
 }
@@ -51,7 +39,7 @@ header::before{*/
   /*参考：http://www.nxworld.net/tips/50-css-heading-styling.html
    *19. 補足やサブタイトル的なものを表示*/
   padding-bottom: .5em;
-  border-bottom: 1px solid #ccc;
+  /*border-bottom: 1px solid #ccc;*/
   color: #eee;
   /*text-shadow: 1px 1px 0px #000;*/
 }
@@ -93,7 +81,7 @@ nav ul li a.selected {
 
 .container {
   max-width: 800px;
-  margin: -100px auto 0;
+  margin: -50px auto 0;
   background-color: #fff;
 }
 
@@ -105,6 +93,21 @@ section h2 {
   padding: 10px 0 20px 0;
   text-align: center;
   letter-spacing: 0.15em;
+}
+
+#apps {
+  padding: 20px 0;
+  text-align: center;
+}
+#apps img {
+  width: 60%;
+}
+#apps figure {
+ margin-bottom: 20px;
+}
+#apps figcaption {
+    text-align: center;
+    font-size: 16px;
 }
 
 footer {

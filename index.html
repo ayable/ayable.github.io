@@ -2,17 +2,66 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Profile</title>
+    <meta name="description" content="">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="about.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <h1>
+          <span>Doubuchi Ayami</span>
+	        洞渕 彩未
+	      </h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2>Profile</h2>
+        <p>大阪府出身。現在は東京都在住。27歳。女子。仕事はSIerの営業と新規ビジネス企画など。
+        営業をやっている中で自分でサービス作れたらいいなあと思ったのが、techacademyを始めたきっかけ。
+        普段３日坊主になることも多いので、スパルタ教育をしてもらえるのも魅力の一つ。</p>
+        <p>大学時代は、情報学を専攻していたもののまんべんなく学び、あまりスキルは身につきませんでした。
+        今回は1か月間しかないですが、簡単にWebサービスを作れるようになることを期待しています。</p>
+
+        <a href="https://github.com/ayable" class="btn btn-default">my page @Git</a>
+      </section>
+      <section class="row" id="apps">
+        <h2>My apps</h2>
+        <figure class="col-sm-6">
+          <img src="profile.jpg" alt="">
+          <figcaption>サンプル１</figcaption>
+        </figure>
+        <figure class="col-sm-6">
+          <img src="profile.jpg" alt="">
+          <figcaption>サンプル2</figcaption>
+        </figure>        
+        <figure class="col-sm-6">
+          <img src="profile.jpg" alt="">
+          <figcaption>サンプル3</figcaption>
+        </figure>
+        <figure class="col-sm-6">
+          <img src="profile.jpg" alt="">
+          <figcaption>サンプル4</figcaption>
+        </figure>
+      </section>
+      <footer>
+        <p>&copy; 2016 Ayami Doubuchi.</p>
+      </footer>
+    </div>
   </body>
 </html>
