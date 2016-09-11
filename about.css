@@ -15,12 +15,25 @@ span.red {
 }
 
 header {
-  background-image: url("bg.jpg");
+  background-image: url("top_profile.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
+/*
+header::before{*/
+	/* 透過した黒を重ねる */
+/*	background-color: rgba(0,0,0,0.5);*/
+	/* どの範囲に重ねるかを指定 */
+/*	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+*/
 
 #logo {
   padding: 20px 0;
@@ -29,7 +42,7 @@ header {
 
 #logo img {
   max-width: 120px;
-  border: 5px solid #fff;
+  border: 5px solid #ddd;
   border-radius: 100%;
 }
 
@@ -39,15 +52,15 @@ header {
    *19. 補足やサブタイトル的なものを表示*/
   padding-bottom: .5em;
   border-bottom: 1px solid #ccc;
-  /*color: #fff;*/
+  color: #eee;
   /*text-shadow: 1px 1px 0px #000;*/
 }
 
 #logo h1 span{
   display: block;
-	margin-bottom: .2em;
-	color: #aaa;
-	font-size: .7em;
+	margin-bottom: .4em;
+	color: #ccc;
+	font-size: .6em;
 }
 
 nav {
