@@ -103,11 +103,12 @@ section h2 {
   width: 60%;
 }
 #apps figure {
- margin-bottom: 20px;
+ margin-bottom: 50px;
 }
 #apps figcaption {
     text-align: center;
-    font-size: 16px;
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 footer {
